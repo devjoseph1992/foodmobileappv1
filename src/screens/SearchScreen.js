@@ -1,8 +1,15 @@
 import React from "react";
 import { View, Text, StyleSheet } from "react-native";
 
+import SearchBar from "../Components/SearchBar.component";
+
 const SearchScreen = () => {
-  return <Text>Search Plate</Text>;
+  return (
+    <View>
+      <SearchBar />
+      <Text>Search Screen</Text>
+    </View>
+  );
 };
 
 const Styles = StyleSheet.create({});
